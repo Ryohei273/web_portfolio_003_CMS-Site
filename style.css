@@ -326,7 +326,6 @@ body {
     .c-image3 {
         width: 100%;
         background-size: contain;
-        /* min-height: 50vw; */
         flex: none;
         max-width: 100%;
         height: 500px;
@@ -598,7 +597,6 @@ body {
     }
     .p-home__mainVisual__image {
         height: 500px;
-        /* margin-top: 30px; */
         flex: none;
     }
     .p-home__mainVisual__buttonBox {
@@ -849,6 +847,7 @@ body {
 }
 
 /* リスト表示 */
+
 .p-home__section2__listView .p-home__section2__blockAnalyse__text {
     margin-right: 0;
     margin-left: 20px;
@@ -1015,6 +1014,7 @@ body {
 }
 
 /* まずはじめに～導入時の～ */
+
 .p-home__section4 {
     margin-top: 150px;
 }
@@ -1046,6 +1046,7 @@ body {
 }
 
 /* 無料トライアル実施中 */
+
 .p-home__section5 {
     margin-top: 150px;
 }
@@ -1085,6 +1086,7 @@ body {
 }
 
 /* お気軽にご質問・ご相談ください */
+
 .p-home__section6 {
     margin-top: 150px;
 }
@@ -1174,11 +1176,13 @@ body {
 }
 
 /* フッター */
+
 .p-footer {
     margin-top: 150px;
 }
 
 /* 黒背景 */
+
 .p-footer__top {
     background-color: #354341;
     padding-top: 70px;
@@ -1266,6 +1270,7 @@ body {
 }
 
 /* 白背景 */
+
 .p-footer__bottom {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1314,6 +1319,7 @@ body {
 }
 
 /* Hamburger menu */
+
 input[type="checkbox"] {
     position: absolute;
     left: -50vw;
@@ -1334,6 +1340,7 @@ input[type="checkbox"] {
     }
 
     /* Navbar & Navmenu color */
+
     :root {
         --background-navbar: #f6f7f7;
     }
@@ -1346,6 +1353,7 @@ input[type="checkbox"] {
     }
 
     /* Nav items */
+
     .menu {
 
         list-style: none;
@@ -1369,6 +1377,7 @@ input[type="checkbox"] {
 
 
     /* Hamburger menu button */
+
     .menu-btn:checked ~ .menu {
         transform: scale(1, 1);
         transform-origin: top;
@@ -1376,6 +1385,7 @@ input[type="checkbox"] {
     }
 
     /* Hamburger menbu text */
+
     .menu a {
         text-decoration: none;
         font-weight: 500;
@@ -1465,6 +1475,7 @@ input[type="checkbox"] {
     }
 
     /* Hamburger Menu Animation Start */
+    
     .menu-btn:checked ~ .menu-icon .navicon:before {
         transform: rotate(-45deg);
     }
