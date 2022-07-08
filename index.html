@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPUTARO Blocks</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f5f879e43.js" crossorigin="anonymous"></script>
+    <script src="headerAnimation.js"></script>
+    <script src="blockSelect.js"></script>
+    <script src="interviewSelect.js"></script>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="p-header" id="header">
+        <div class="p-header__container">
+            <div class="p-header__logo">
+                <img src="images/logo.png"  height="33px">
+            </div>
+            <div class="p-header__menuLeft menu-icon-box">
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="" class="c-text__lv8">リソース</a></li>
+                    <li><a href="" class="c-text__lv8">ブログ</a></li>
+                    <li><a href="" class="c-text__lv8">料金</a></li>
+                    <li><a href="" class="c-text__lv8">お問い合わせ</a></li>
+                    <!-- PCでは隠すエリア -->
+                    <li><a href="#" class="c-text__lv8">ログイン</a></li>
+                    <li><button class="c-button">無料トライアル</button></li>
+                    <li><a href="#" class="c-text__lv8">言語切替</a></li>
+                    </li>
+                </ul>
+            </div>
+            <div class="p-header__menuRight">
+                <ul class="menu">
+                    <li><a href="#" class="c-text__lv8">ログイン</a></li>
+                    <li><button class="c-button c-button__small">無料トライアル</button></li>
+                    <li>
+                        <a href="#" >
+                            <p><i class="fa-solid fa-globe fa-lg"></i></p>
+                        </a>
+                    </li>
+                </ul>                
+            </div>
+        </div>
+    </header>
+
+    <!-- メイン -->
+    <main class="p-home">
+        <!-- メインビジュアル -->
+        <div class="p-home__mainVisual">
+            <div class="container">
+                <div class="p-home__mainVisual__text">
+                    <h2 class="c-text__lv1">サイトの更新・評価・改善を<br>もっと自由に直感的に</h2>
+                    <p class="c-description__lv1">COMPUTARO Blocksは、どのように構築されたサイトでも後からタグを一行貼るだけ。サイトのどこでもノーコードで更新・評価・改善ができます。<br>
+                        更新に関わる日々の煩雑な業務をなくし、サイトをより良くするための活動に集中しましょう。</p>
+                    <div class="p-home__mainVisual__buttonBox">
+                        <a href="" class="c-button">無料トライアル実施中</a>
+                        <p class="c-description__lv2">期間限定無料で・クレジットカード不要</p>
+                    </div>
+                </div>
+                <div class="p-home__mainVisual__image" style="background-image: url(images/main_visual.png);"></div>
+            </div>
+        </div>        
+
+        <!-- BMSで実現する新しいサイト運営とは -->
+        <div class="p-home__section">
+            <div class="container">
+                <!-- キャッチコピー -->
+                <div class="p-home__section__head">
+                    <div class="c-text__lv2">
+                        <span class="bms">BMS</span> <span class="c-text__lv5">(Block Management System)</span> で実現する<br>
+                        新しいサイト運営とは
+                    </div>
+                    <!-- 改行しない方法がよくわからない -->
+                    <div class="c-description__lv1">
+                        BMSは、サイトをブロックの集合体と捉え、ブロックごとに更新・評価・改善できる新しいサイト管理システムです。
+                    </div>
+                    <!-- ４つアイコン -->
+                    <div class="p-home__section__body">
+                        <ul class="p-systemList">
+                            
+                            <li class="p-systemList__item">
+                                <div class="p-systemList__image">
+                                    <div class="c-image" style="background-image: url(images/bms1-1.png);"></div>
+                                </div>
+                                <div class="p-systemList__text">
+                                    <div class="c-text__lv4">ブロックに分解して<br>更新・管理</div>
+                                    <div class="c-description__lv2">サイトをブロックに分解し、ノーコードで自由に編集。プレビュー確認やスケジュール設定も簡単。</div>
+                                </div>
+                            </li>
+                            
+                            <li class="p-systemList__item">
+                                <div class="p-systemList__image">
+                                    <div class="c-image" style="background-image: url(images/bms1-2.png);"></div>
+                                </div>
+                                <div class="p-systemList__text">
+                                    <div class="c-text__lv4">ブロックに分解して<br>
+                                        効果を可視化</div>
+                                    <div class="c-description__lv2">ブロックごとに表示数やクリック等の数値を全て可視化。効果をひと目で把握。</div>
+                                </div>
+                            </li>
+                            <li class="p-systemList__item">
+                                <div class="p-systemList__image">
+                                    <div class="c-image" style="background-image: url(images/bms1-3.png);"></div>
+                                </div>
+                                <div class="p-systemList__text">
+                                    <div class="c-text__lv4">アイデアを<br>
+                                        試す・テストする</div>
+                                    <div class="c-description__lv2">思いついたアイデアをすぐに試して数値で振り返る。ABテストで素早く学習する。</div>
+                                </div>
+                            </li>
+                            <li class="p-systemList__item">
+                                <div class="p-systemList__image">
+                                    <div class="c-image" style="background-image: url(images/bms1-4.png);"></div>
+                                </div>
+                                <div class="p-systemList__text">
+                                    <div class="c-text__lv4">パーソナライズで<br>
+                                        最適化</div>
+                                    <div class="c-description__lv2">パーソナライズでユーザーごとに最適な体験を提供し、サイトのパフォーマンスを向上。</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="p-home__section2">
+            <div class="container">
+                <div class="p-home__section2__blockManage">
+                    <!-- ブロック更新・管理 -->
+                    <p class="c-text__lv4">ブロック更新・管理</p>
+                    <div class="c-text__lv2">サイトをどこでも自由に更新、即反映<br>
+                        2週間の作業、数分で完了</div>
+                    <div class="p-home__section2__blockManage__buttonBox">
+                        <button id="selection2button1" class="c-button2__pressed" type="button" onclick="image1Display()"><p><i class="fa-solid fa-window-maximize"></i> ブロックを<br>登録する</p></button>
+                        <button id="selection2button2" class="c-button2" type="button" onclick="image2Display()"><p><i class="fa-solid fa-images"></i> ブロックを<br>編集する</p></button>
+                        <button id="selection2button3" class="c-button2" type="button" onclick="image3Display()"><p><i class="fa-solid fa-window-restore"></i> ブロックを<br>使い回す</p></button>
+                    </div>
+                    <div class="p-home__section2__blockManage__text">
+                        <p class="c-description__lv1">
+                            思いついたアイディアを試すのに、都度開発部門や制作会社に依頼する必要はありません。<br>
+                            変更したいブロックをページ上で選択して登録。たったこれだけで編集・更新可能に。
+                        </p>
+                    </div>
+                    <div class="p-home__section2__blockManage__imageBox">
+                        <div id="blockImage1" class="c-image2"  style="background-image: url(images/block_image_1.png); opacity: 1;"></div>
+                        <div id="blockImage2" class="c-image2"  style="background-image: url(images/block_image_2.png); opacity: 0;"></div>
+                        <div id="blockImage3" class="c-image2"  style="background-image: url(images/block_image_3.png); opacity: 0;"></div>
+                    </div>
+                </div>
+
+                <!-- ブロック分析 -->
+                <div class="p-home__section2__blockAnalyse">
+                    <div class="p-home__section2__blockAnalyse__text">
+                        <p class="c-text__lv4">ブロック分析</p>
+                        <p class="c-text__lv2">ブロックごと数値を計測し<br>
+                            改善のための気づきを得る</p>
+                        <p class="c-description__lv1">
+                            ブロックごとの数値を可視化し、課題発見から改善のための仮説構築をアシストするのが「ブロック分析」です。タグを設置したページを自由にブロック化し、表示やクリックやゴールといった数値を自動計測、一覧で確認することができます。
+                        </p>
+                        <div class="c-itemBox">
+                            <div class="c-itemBox__head">
+                                <div class="c-image3_small" style="background-image: url(images/item1-1.png);"></div>
+                                <p class="c-text__lv6">リスト表示</p>
+                            </div>
+                            <div class="c-itemBox__body">
+                                <p class="c-description__lv3">
+                                    ページごとにブロックをリストで整理。<br>
+                                    期間やゴールを変えながら表示やクリックなどの数値を確認できます。
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="c-image3" style="background-image: url(images/blockAnalyseMain1_.png);"></div>
+                </div>
+                <!-- リスト表示 -->
+                <div class="p-home__section2__blockAnalyse p-home__section2__listView">
+                    <div class="c-image3" style="background-image: url(images/blockAnalyseMain2.png);"></div>
+                    <div class="p-home__section2__blockAnalyse__text">
+                        <p class="c-text__lv4">リスト表示</p>
+                        <p class="c-text__lv2">アイデアをすぐに試す<br>
+                            ABテストで素早く仮説検証し、
+                            改善を積み上げる</p>
+                        <p class="c-description__lv1">
+                            アイデアを思いついたら、すぐに試してみましょう。変更したいブロックを選択し、編集・更新するだけ。元のコンテンツとの数値の比較も簡単です。また複数パターン作成し、ABテストもできます。すぐに試して素早く学習し、サイトをどんどん改善していきましょう。
+                        </p>
+                        <div class="p-home__section2__blockAnalyse__itemBox">
+                            <div class="c-itemBox">
+                                <div class="c-itemBox__head">
+                                    <div class="c-image3_small" style="background-image: url(images/item1-2.png);"></div>
+                                    <p class="c-text__lv6">ABテスト</p>
+                                </div>
+                                <div class="c-itemBox__body">
+                                    <p class="c-description__lv3">
+                                        複数パターンを作成してABテストが可能。単一ブロックでのテストはもちろん、複数ブロック組み合わせても可能です。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="c-itemBox">
+                                <div class="c-itemBox__head">
+                                    <div class="c-image3_small" style="background-image: url(images/item1-3.png);"></div>
+                                    <p class="c-text__lv6">効果検証</p>
+                                </div>
+                                <div class="c-itemBox__body">
+                                    <p class="c-description__lv3">
+                                        変更した結果やABテストの結果はすぐに数値で振り返り。ゴールを切り替えて様々な角度から分析ができます。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-image3" style="background-image: url(images/blockAnalyseMain2.png);"></div>
+                </div>
+                <!-- ムービーで体験する～ -->
+                <div class="p-home__section2__movie">
+                    <p class="c-text__lv2">ムービーで体験するCOMPUTARO Blocks</p>
+                    <div class="p-home__section2__movie__movie">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qCE5KwAOPRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- インタビュー -->
+            <div class="p-home__section3">
+                <div class="p-home__section3__interview">
+                    <!-- インタビュー1 -->
+                    <div class="p-home__section3__interview__interviewBox" id="interview1" style="background-image: url(images/interview1.jpg); background-size: cover; background-position: center; opacity: 1; pointer-events: auto;">
+                        <div class="p-home__section3__interview__interviewBox__info" >
+                            <div class="p-home__section3__interview__interviewBox__info__buttonBox">
+                                <div class="p-home__section3__interview__interviewBox__info__buttonBox__button">
+                                    <button class="c-button3" type="button" onclick="interview3Display()">
+                                        <div class="arrow_left"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-home__section3__interview__interviewBox__info__textBox">
+                                <div class="c-text__lv3">「LPOには時間がかかる」を覆し、<br>
+                                “心を動かす”LPをクライアントに提供<br>
+                            </div>
+                                <div class="c-text__lv4">ダンウェズ・ガード・セキュリティ</div>
+                                <button class="c-button">インタビューを読む</button>
+                            </div>
+                            <div class="p-home__section3__interview__interviewBox__info__buttonBox">
+                                <div class="p-home__section3__interview__interviewBox__info__buttonBox__button">
+                                    <button class="c-button3" type="button" onclick="interview2Display()">
+                                        <div class="arrow_right"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- インタビュー2 -->
+                    <div class="p-home__section3__interview__interviewBox" id="interview2" style="background-image: url(images/interview2.jpg); background-size: cover; background-position: center; opacity: 0; pointer-events: none;">
+                        <div class="p-home__section3__interview__interviewBox__info" >
+                            <div class="p-home__section3__interview__interviewBox__info__buttonBox">
+                                <div class="p-home__section3__interview__interviewBox__info__buttonBox__button">
+                                    <button class="c-button3" type="button" onclick="interview1Display()">
+                                        <div class="arrow_left"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-home__section3__interview__interviewBox__info__textBox">
+                                <div class="c-text__lv3">サイトリニューアル時にBMSありき<br>
+                                “でCMSを選択。使い分けることで<br>
+                                自由度の高いサイト運営を実現</div>
+                                <div class="c-text__lv4">椚田コーポレーション 住まいの窓口</div>
+                                <button class="c-button">インタビューを読む</button>
+                            </div>
+                            <div class="p-home__section3__interview__interviewBox__info__buttonBox">
+                                <div class="p-home__section3__interview__interviewBox__info__buttonBox__button">
+                                    <button class="c-button3" type="button" onclick="interview3Display()">
+                                        <div class="arrow_right"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- インタビュー3 -->
+                    <div class="p-home__section3__interview__interviewBox" id="interview3" style="background-image: url(images/interview3.jpg); background-size: cover; background-position: center; opacity: 0; pointer-events: none;">
+                        <div class="p-home__section3__interview__interviewBox__info" >
+                            <div class="p-home__section3__interview__interviewBox__info__buttonBox">
+                                <div class="p-home__section3__interview__interviewBox__info__buttonBox__button">
+                                    <button class="c-button3" type="button" onclick="interview2Display()">
+                                        <div class="arrow_left"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-home__section3__interview__interviewBox__info__textBox">
+                                <div class="c-text__lv3">分析、提案、改善のサイクルを早め、<br>
+                                    クライアントの信頼を得る。<br>
+                                    サイトグロースのプロ集団のCOMPUTARO Blocks活用</div>
+                                <div class="c-text__lv4">飛田野スペース</div>
+                                <button class="c-button">インタビューを読む</button>
+                            </div>
+                            <div class="p-home__section3__interview__interviewBox__info__buttonBox">
+                                <div class="p-home__section3__interview__interviewBox__info__buttonBox__button">
+                                    <button class="c-button3" type="button" onclick="interview1Display()">
+                                        <div class="arrow_right"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-home__section3__interview__dods">
+                    <button class="c-button4_active" id="interviewDod1" type="button" onclick="interview1Display()"></button>
+                    <button class="c-button4" id="interviewDod2" type="button" onclick="interview2Display()"></button>
+                    <button class="c-button4" id="interviewDod3" type="button" onclick="interview3Display()"></button>
+                </div>
+            </div>
+        
+        <!-- まずはじめに～導入時の～ -->
+        <div class="p-home__section4">
+            <div class="container">
+                <div class="p-home__section4__itemBox">
+                    <ul>
+                        <li class="c-itemBox2">
+                            <a href="#">
+                                <div class="c-itemBox2_Box">
+                                    <div class="c-itemBox2_head">
+                                        <p class="c-text__lv3">まずはじめに</p>
+                                    </div>
+                                    <div class="c-itemBox2_body">
+                                        <p class="c-description__lv1">COMPUTARO Blocksでどんなことができるの？を解説。</p>
+                                    </div>
+                                    <div class="c-itemBox2_imageBox">
+                                        <div class="c-itemBox2_image" style="background-image: url(images/item2-1.png);"></div>
+                                        <div class="c-itemBox2_imageBox_arrowBox">
+                                            <div class="arrow_right"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="c-itemBox2">
+                            <a href="#">
+                                <div class="c-itemBox2_Box">
+                                    <div class="c-itemBox2_head">
+                                        <p class="c-text__lv3">ご利用の流れと画面デモ</p>
+                                    </div>
+                                    <div class="c-itemBox2_body">
+                                        <p class="c-description__lv1">COMPUTARO Blocksの各機能の特徴や利用シーンを、画面デモを交えてご紹介します。</p>
+                                    </div>
+                                    <div class="c-itemBox2_imageBox">
+                                        <div class="c-itemBox2_image" style="background-image: url(images/item2-2.png);"></div>
+                                        <div class="c-itemBox2_imageBox_arrowBox">
+                                            <div class="arrow_right"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="c-itemBox2">
+                            <a href="#">
+                                <div class="c-itemBox2_Box">
+                                    <div class="c-itemBox2_head">
+                                        <p class="c-text__lv3">導入時のよくあるご質問</p>
+                                    </div>
+                                    <div class="c-itemBox2_body">
+                                        <p class="c-description__lv1">導入の流れやタグの設置方法などよくあるご質問をご紹介。</p>
+                                    </div>
+                                    <div class="c-itemBox2_imageBox">
+                                        <div class="c-itemBox2_image" style="background-image: url(images/item2-3.png);"></div>
+                                        <div class="c-itemBox2_imageBox_arrowBox">
+                                            <div class="arrow_right"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 無料トライアル実施中 -->
+        <div class="p-home__section5">
+            <div class="container">
+                <div class="p-home__section5__PicBox" style="background-image: url(images/sec5_bgi.jpg);">
+                    <div class="p-home__section5__PicBox__contents">
+                        <div class="p-home__section5__PicBox__contents_textBox">
+                            <p class="c-text__lv2">タグ1行で誰でも簡単に、どこでも自由に。<br>
+                                ノーコードのサイト運営を始めましょう</p>
+                        </div>
+                        <div class="p-home__section5__PicBox__contents_buttonBox">
+                            <button class="c-button">資料ダウンロード</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- お気軽にご質問・ご相談ください -->
+        <div class="p-home__section6">
+            <div class="container">
+                <div class="p-home__section6__head">
+                    <p class="c-text__lv2">お気軽にご質問・ご相談ください</p>
+                </div>
+                <div class="p-home__section6__body">
+                    <ul>
+                        <li>
+                            <div class="p-home__section6__body__icon">
+                                <i class="fa-solid fa-file-lines sec6_icon"></i>
+                            </div>
+                            <div class="p-home__section6__body__text">
+                                <p class="c-text__lv5">資料ダウンロード</p>
+                            </div>
+                            <div class="p-home__section6__body__button">
+                                <button class="c-button">ダウンロードする</button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="p-home__section6__body__icon">
+                                <i class="fa-solid fa-envelope sec6_icon"></i>
+                            </div>
+                            <div class="p-home__section6__body__text">
+                                <p class="c-text__lv5">お問い合わせ</p>
+                            </div>
+                            <div class="p-home__section6__body__button">
+                                <button class="c-button">お問い合わせ</button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="p-home__section6__body__icon">
+                                <i class="fa-solid fa-laptop sec6_icon"></i>
+                            </div>
+                            <div class="p-home__section6__body__text">
+                                <p class="c-text__lv5">オンライン商談</p>
+                            </div>
+                            <div class="p-home__section6__body__button">
+                                <button class="c-button">予約する</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- フッター -->
+    <footer class="p-footer">
+        <!-- 黒背景 -->
+        <div class="p-footer__top">
+            <div class="container">
+                <div class="p-footer__top__left">
+                    <div class="p-footer__top__left__head">
+                        <h3 class="c-text__lv7">CXプラットフォーム COMPUTARO</h3>
+                    </div>
+                    <div class="p-footer__top__left__body">
+                        <div class="p-footer__top__left__body__list">
+                            <h3 class="c-text__lv7">プロダクト</h3>
+                            <ul>
+                                <li><a href="#" class="c-description__lv3">Web接客</a></li>
+                                <li><a href="#" class="c-description__lv3">アプリマーケティング</a></li>
+                                <li><a href="#" class="c-description__lv3">サイト管理・改善</a></li>
+                                <li><a href="#" class="c-description__lv3">広告配信最適化</a></li>
+                            </ul>
+                        </div>
+                        <div class="p-footer__top__left__body__list">
+                            <h3 class="c-text__lv7">事例</h3>
+                            <ul>
+                                <li><a href="#" class="c-description__lv3">導入企業・業界</a></li>
+                                <li><a href="#" class="c-description__lv3">導入インタビュー</a></li>
+                                <li><a href="#" class="c-description__lv3">施策事例</a></li>
+                                <li><a href="#" class="c-description__lv3">リソース</a></li>
+                            </ul>
+                        </div>
+                        <div class="p-footer__top__left__body__list">
+                            <h3 class="c-text__lv7">セミナー・イベント</h3>
+                            <ul>
+                                <li><a href="#" class="c-description__lv3">資料一覧</a></li>
+                                <li><a href="#" class="c-description__lv3">稼働状況</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-footer__top__right">
+                    <button class="c-button c-button_black">ログイン</button>
+                    <button class="c-button">お問い合わせ</button>
+                </div>
+            </div>
+        </div>
+        <!-- 白背景 -->
+        <div class="p-footer__bottom">
+            <div class="container">
+                <ul class="p-footer__bottom__textbox">
+                    <li><a href="#" class="c-description__lv3">利用規約</a></li>
+                    <li><a href="#" class="c-description__lv3">情報セキュリティの基本方針</a></li>
+                    <li><a href="#" class="c-description__lv3">設定方法</a></li>
+                    <li><a href="#" class="c-description__lv3">プライバシーポリシー</a></li>
+                    </ul>
+                <div class="p-footer__bottom__textbox">
+                    <li><a href="#" class="c-description__lv3">運営会社</a></li>
+                    <li><a href="#" class="c-description__lv3">個人情報保護方針</a></li>
+                </div>
+                <div class="p-footer__bottom__CopyRightBox">
+                    <div class="p-footer__bottom__CopyRightBox__logo">
+                        <img src="images/logo.png" height="25px">
+                    </div>
+                    <p class="c-description__lv4">Copyright 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
