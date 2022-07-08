@@ -600,7 +600,7 @@ body {
 .p-home__section__head .c-text__lv2 br.br1 {
     display: none;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
     .p-home__section__head .c-text__lv2 br.br1 {
         display: block;
     }   
