@@ -598,6 +598,7 @@ body {
     .p-home__mainVisual__image {
         height: 500px;
         flex: none;
+        margin-top: 30px;
     }
     .p-home__mainVisual__buttonBox {
         margin: 30px 0 0 0;
@@ -741,7 +742,7 @@ body {
 }
 
 .p-home__section2__blockManage__buttonBox {
-    padding-top: 40px;
+    padding-top: 30px;
     margin: 0 auto;
 }
 
@@ -1475,7 +1476,7 @@ input[type="checkbox"] {
     }
 
     /* Hamburger Menu Animation Start */
-    
+
     .menu-btn:checked ~ .menu-icon .navicon:before {
         transform: rotate(-45deg);
     }
