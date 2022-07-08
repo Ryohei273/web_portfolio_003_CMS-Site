@@ -597,6 +597,15 @@ body {
     text-align: center;
 }
 
+.p-home__section__head .c-text__lv2 br.br1 {
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .p-home__section__head .c-text__lv2 br.br1 {
+        display: block;
+    }   
+}
+
 .p-home__section__head .c-description__lv1 {
     text-align: center;
     margin-top: 30px;
@@ -607,6 +616,11 @@ body {
     font-weight: 900;
     font-size: 40px;
     letter-spacing: 0.1em;
+}
+@media screen and (max-width: 600px) {
+    .p-home__section__head .c-text__lv2 .bms {
+        font-size: 35px;
+    }
 }
 
 /* ４つアイコン */
