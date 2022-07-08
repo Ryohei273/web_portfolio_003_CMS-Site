@@ -299,6 +299,7 @@ body {
     background-size: cover;
     background-position: center;
     min-width: 100px;
+    max-width: 530px;
 }
 @media screen and (max-width: 960px) {
     .c-image3 {
@@ -747,6 +748,7 @@ body {
 .p-home__section2__blockAnalyse {
     display: flex;
     margin-top: 150px;
+    justify-content: center;
 }
 
 .p-home__section2__blockAnalyse__text {
