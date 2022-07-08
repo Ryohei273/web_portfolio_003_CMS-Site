@@ -25,6 +25,11 @@ body {
     color: #354341;
     line-height: 70px;
 }
+@media screen and (max-width: 530px) {
+    .c-text__lv1 {
+        font-size: 32px;
+    }    
+}
 
 .c-text__lv2 {
     font-size: 32px;
