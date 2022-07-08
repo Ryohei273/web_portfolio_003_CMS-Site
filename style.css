@@ -25,7 +25,7 @@ body {
     color: #354341;
     line-height: 70px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .c-text__lv1 {
         font-size: 28px;
     }    
@@ -38,7 +38,7 @@ body {
     line-height: 45px;
     padding-top: 20px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .c-text__lv2 {
         font-size: 22px;
     }    
@@ -50,7 +50,7 @@ body {
     color: #354341;
     line-height: 30px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .c-text__lv3 {
         font-size: 18px;
     }    
@@ -62,7 +62,7 @@ body {
     color: #354341;
     line-height: 27px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .c-text__lv4 {
         font-size: 16px;
     }    
@@ -73,7 +73,7 @@ body {
     font-weight: 700;
     color: #354341;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .c-text__lv5 {
         font-size: 14px;
     }    
@@ -170,7 +170,7 @@ body {
         background-color: #ebecec;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
     .c-button2 {
         font-size: 12px;
     }
@@ -201,7 +201,7 @@ body {
         padding: 0 10px;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
     .c-button2__pressed {
         font-size: 12px;
     }
@@ -304,7 +304,7 @@ body {
     background-size: cover;
     background-position: center;
     min-width: 100px;
-    max-width: 550px;
+    max-width: 600px;
 }
 @media screen and (max-width: 960px) {
     .c-image3 {
@@ -742,7 +742,7 @@ body {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .p-home__section2__blockManage__buttonBox button {
         margin: 0 3px;
     }
@@ -944,7 +944,7 @@ body {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .p-home__section3__interview__interviewBox__info__textBox .c-button {
         padding: 0 20px;
     }
