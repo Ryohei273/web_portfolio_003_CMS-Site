@@ -743,6 +743,7 @@ body {
     }
     .p-home__section2__blockManage__imageBox {
         height: 70vw;
+        margin-top: 10px;
     }
     .p-home__section2__blockManage__buttonBox button {
         margin: 0 10px;
@@ -791,7 +792,7 @@ body {
     }
     .p-home__section2__blockAnalyse__text {
         width: 100%;
-        margin: 150px 0 0 0;
+        margin: 0;
     }
     .p-home__section2__blockAnalyse .c-image3 {
         margin: 30px 0 0 0;
