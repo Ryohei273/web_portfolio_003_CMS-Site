@@ -315,7 +315,7 @@ body {
 
 .c-image3 {
     height: 100%;
-    min-height: 400px;
+    min-height: 500px;
     flex: 1;
     background-size: cover;
     background-position: center;
@@ -422,19 +422,22 @@ body {
     width: 80%;
     align-items: flex-end;
     justify-content: center;
-    padding: 0 auto;
     position: absolute;
     bottom: 20px;
 }
+
+
 @media screen and (max-width: 960px) {
     .c-itemBox2_imageBox {
         height: 100px;
         width: 100%;
         justify-content: right;
-        position: relative;
-        bottom: 0;
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
     }
 }
+
 
 .c-itemBox2_image {
     background-size: contain;
@@ -1011,6 +1014,9 @@ body {
 @media screen and (max-width: 600px) {
     .p-home__section3__interview__interviewBox__info__textBox .c-button {
         padding: 0 20px;
+    }
+    .p-home__section3__interview__interviewBox__info {
+        height: 400px;
     }
 }
 
