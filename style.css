@@ -1288,7 +1288,7 @@ body {
     margin-top: 20px;
 }
 
-.p-footer__bottom__textbox a:not(:first-child) {
+.p-footer__bottom__textbox li:not(:first-child) {
     margin-left: 40px;
 }
 
@@ -1317,7 +1317,7 @@ body {
         flex-direction: column;
         margin-top: 0;
     }
-    .p-footer__bottom__textbox a:not(:first-child) {
+    .p-footer__bottom__textbox li:not(:first-child) {
         margin-left: 0;
     }
     .p-footer__bottom__textbox li {
