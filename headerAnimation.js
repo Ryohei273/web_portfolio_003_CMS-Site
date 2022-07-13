@@ -5,7 +5,7 @@
         ticking      = false;
   
     function onScroll() {
-      const target = document.getElementById('header') //なぜかこれの位置が上だと動作しない→ヘッダーが存在する前にヘッダーを見に行こうとしている。
+      const target = document.getElementById('header')
       if (lastPosition > height) {
         if (lastPosition > offset) {
           target.classList.add('head-animation');
